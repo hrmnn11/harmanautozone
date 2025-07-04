@@ -1,9 +1,59 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
 
 body {
-  background-color: white;
-  color: black;
-  font-family: Verdana;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #f1f1f1;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #000;
+}
+.logo {
+  height: 50px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+nav a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #333, #111);
+}
+#services, #contact {
+  padding: 2rem;
+  text-align: center;
+}
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.service {
+  width: 180px;
+}
+.service img {
+  width: 100%;
+  border-radius: 8px;
+}
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 2rem;
+  background: #25D366;
+  color: white;
+  border-radius: 50%;
+  padding: 10px 14px;
+  text-decoration: none;
 }
